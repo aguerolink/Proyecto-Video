@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+    
+    *
+    {
+        margin: 0px;
+        padding: 0px; 
+    }
+
+    body
+    {
+        /* background: linear-gradient(#21c08b, #ab88ff ); */
+        font-family: 'Muli', sans-serif;
+    }
+
+
+    .header
+    {
+        background-color: #21c08b; 
+        /* background-color: #8f57fd; */
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__img
+    {
+        width: 200px;
+        /* margin: 10px 0px 0px 10px;   */
+        margin-left: 10px;  
+    }
+
+    .main
+    {
+        background: linear-gradient(#21c08b, #ab88ff );
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0px 30px;
+       /*  min-height: 400px; */
+        min-height: calc(100vh - 170px);
+    }
+
+    .main__container
+    {
+        color: white;
+        padding: 90px 68px 40px;
+        min-height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @keyframes pulse
+     {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.1);}
+        100% {transform: scale(1);}
+      }
+
+    .main__container--tittle
+    {
+        font-size: 150px;
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    .main__container--subtittle
+    {
+        font-size: 14px;
+    }
+   
+    .footer
+    {
+        background-color: #ab88ff;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+    }
+    .footer a
+    {
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: 'Muli', sans-serif; 
+        padding-left: 30px;
+        text-decoration: none;
+    }
+    .footer a:hover
+    {  
+        text-decoration: underline;
+    }
