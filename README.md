@@ -1,2 +1,5 @@
 # Proyecto-Video
-El proyecto se basa en el desarrollo de una aplicación web para la reproduccion de videos.
+
+About:
+
+El proyecto se basa en el desarrollo de una aplicación web para la reproduccion de videos. En el transcurso del curso FrontEnd Developer de Platzi los alumnos debían realizar un proyecto pactado por la institucion. 
